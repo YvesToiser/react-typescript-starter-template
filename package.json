@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "eslintConfig": {
     "extends": "react-app"
@@ -27,6 +27,7 @@
     "pretty-correct": "prettier --write src"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
@@ -34,17 +35,19 @@
     "@types/node": "^14.14.22",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/react-redux": "^7.1.23",
     "axios": "^0.21.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "typescript": "^4.1.3"
+    "react-redux": "^7.2.6",
+    "react-scripts": "^2.1.3",
+    "typescript": "^4.6.2"
   },
   "devDependencies": {
     "prettier": "2.2.1",
-    "tslint": "^6.1.3",
-    "tslint-react": "^5.0.0",
+    "tslint": "^5.0.0",
     "tslint-config-prettier": "^1.18.0",
-    "tslint-eslint-rules": "^5.4.0"
+    "tslint-eslint-rules": "4.1.1",
+    "tslint-react": "^4.2.0"
   }
 }
